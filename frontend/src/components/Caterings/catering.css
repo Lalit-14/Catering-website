@@ -1,0 +1,39 @@
+.caterer_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  width: 100%; /* Ensure the grid takes full width */
+  margin-top: 20px;
+}
+
+.caterer_card {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #254EBA;
+}
+
+.caterer_card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.caterer_card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.caterer_card h2 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.caterer_card p {
+  margin-top: 10px;
+}

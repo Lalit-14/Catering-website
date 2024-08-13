@@ -1,0 +1,92 @@
+body.login {
+    background: linear-gradient(90deg, #CC9F21 50%, #A11414 50%);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logo {
+    width: 100px;
+    margin-top: -60%;
+    margin-left: -60%; 
+}
+
+.logo img {
+    width: 175%;
+}
+
+.welcome {
+    font-family: 'rammetto one';
+    font-size: 75px;
+    line-height: 0.2;
+    color: #FFFFFF;
+    text-align: left;
+    margin-top: -20%;
+    margin-left: -30%;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-self: flex-start;
+    margin-right: 150px;
+    margin-top: 90px;
+}
+
+label {
+    font-family: 'Roboto';
+    color: #FFFFFF;
+    font-size: 23px;
+    margin-left: 5%;
+    line-height: 0.2;
+    text-align: left;
+}
+
+.textbox {
+    width: 370px;
+    padding: 20px;
+    left: -1%;
+    border: none;
+    border-radius: 20px; 
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #D9D9D9;
+}
+.Sign-in a{
+    text-decoration: none;
+}
+
+.Sign-in .button {
+    padding: 10px 40px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-size: 23px;
+    color: #000000;
+    background-color: #FFFFFF;
+    margin-left: -10%;
+    transition: background-color 0.5s ease;
+}
+.button:hover{
+    background-color: #CC9F21;
+}
+.Sign-in p{
+    font-family: 'Roboto';
+    color: #FFFFFF;
+    font-size: 25px;
+    line-height: 0.2;
+    margin-left: -20;
+    cursor: pointer;
+}

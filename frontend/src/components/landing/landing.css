@@ -1,0 +1,36 @@
+body.landing{
+    background: linear-gradient(to top left, #CC9F21 50%, #A11414 50%);
+}
+.image{
+    width: 95%;
+}
+.image img{
+    width: 95%;
+    height: 110vh;
+    filter: brightness(0.8);
+}
+.text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left{
+    margin-left: 80px;
+    color: #FFFFFF;
+    font-family: 'rammetto one';
+    font-size: 50px;
+    opacity: 0.8; 
+}
+.right{
+    margin-left: -10%;
+    color: #FFFFFF;
+    font-family: 'rammetto one';
+    font-size: 50px;
+    white-space: nowrap; 
+    opacity: 0.9; 
+}
+.text .logo {
+    width: 100px; 
+    height: auto;
+  }
